@@ -5,11 +5,6 @@ import pandas as pd
 
 nb_packet = 0
 df = pd.DataFrame(columns=['Time', 'Protocol'])
-# Sniff carte réseau
-
-# Analyse traffic
-    # filtrage du traffic ( a la recherche d'anomalie réseau )
-        # Declenche un evenement si evnt anormal
 
 def packet_callback(packet):
     global nb_packet

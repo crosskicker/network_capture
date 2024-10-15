@@ -6,6 +6,10 @@ Network supervision project for our own machine to visualize the transport proto
 
 ### Requirements
 
+`pip3 install -r requirements.txt`
+
+OR
+
 `pip3 install pandas`
 
 `pip3 install scapy`
