@@ -16,11 +16,17 @@ OR
 
 `pip3 install matplotlib`
 
+`pip3 install pyspark`
+
 ### Virtual environnement
+
+Create
+
+`python3 -m venv myvenv`
 
 Activate
 
-`source "myvenv"/bin/activate`
+`source <myvenv>/bin/activate`
 
 Desactivate
 
@@ -28,10 +34,14 @@ Desactivate
 
 ## RUN
 
-Run the main.py to creaate the csv file (to collect data)
+Run the main.py to create the csv file (to collect data) to finish => ^C
 
-`python3 main.py`
+`python3 main.py`  to finish => ^C
 
-Run the graph.py to visualize
+Run spark_graph.py visualize which type of packets are circulating each secondto visualize which kind of packets are traveling for each second.
+
+`python3 spark_graph.py`
+
+Run the graph.py to visualize the numbers of packet since the beginning
 
 `python3 graph.py`
